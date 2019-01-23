@@ -11,20 +11,17 @@ export default class MainNav extends React.Component {
                 <div>
             <ul className="navigation">
               <li className="ms-fontWeight-semibold ms-fontSize-mPlus">
-                <Link to={`/`}><i className="ms-Icon ms-Icon--Home" aria-hidden="true"></i></Link>
+                <Link to={`/`}>OPEN ISSUES</Link>
               </li>
               <li className="ms-fontWeight-semibold ms-fontSize-mPlus navLink">
-                <Link to={`/leaderboard/`}>LEADERBOARD</Link>
+                <Link to={`/my/`}>MY ISSUES</Link>
               </li>
               <li className="ms-fontWeight-semibold ms-fontSize-mPlus navLink">
-                <Link to={`/my/`}>MY ASSIGNMENTS</Link>
+                <Link to={`/new/`}>CREATE A NEW ISSUE</Link>
               </li>
               <li className="ms-fontWeight-semibold ms-fontSize-mPlus navLink">
-                <Link to={`/open/`}>OPEN JOBS</Link>
-              </li>
-              <li className="ms-fontWeight-semibold ms-fontSize-mPlus navLink">
-                <Link to={`/past/`}>PAST ASSIGNMENTS</Link>
-              </li>        
+                <Link to={`/closed/`}>CLOSED ISSUES</Link>
+              </li>                    
             </ul>
           </div>
                   
