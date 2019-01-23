@@ -2,6 +2,6 @@ import * as React from 'react';
 
 export default class Page4 extends React.Component {
     public render(): React.ReactElement<null> {
-        return <p>Page 4</p>;
+        return  <h3>Closed Issues</h3>;
     }
 }
