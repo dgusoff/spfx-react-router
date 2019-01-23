@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styles from './SpfxSpa.module.scss';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { MemoryRouter as Router, Route, Link } from "react-router-dom";
 
 import Page1 from './page1';
 import Page2 from './page2';
