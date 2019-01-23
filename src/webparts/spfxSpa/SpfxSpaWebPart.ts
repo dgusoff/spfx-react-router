@@ -8,7 +8,7 @@ import {
 } from '@microsoft/sp-webpart-base';
 
 import * as strings from 'SpfxSpaWebPartStrings';
-import SpfxSpa from './components/SpfxSpa';
+import MainNav from './components/main-nav';
 import { ISpfxSpaProps } from './components/ISpfxSpaProps';
 
 export interface ISpfxSpaWebPartProps {
@@ -18,10 +18,10 @@ export interface ISpfxSpaWebPartProps {
 export default class SpfxSpaWebPart extends BaseClientSideWebPart<ISpfxSpaWebPartProps> {
 
   public render(): void {
-    const element: React.ReactElement<ISpfxSpaProps > = React.createElement(
-      SpfxSpa,
+    const element: React.ReactElement<{}> = React.createElement(
+      MainNav,
       {
-        description: this.properties.description
+       
       }
     );
 
